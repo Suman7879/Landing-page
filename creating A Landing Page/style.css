@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 90vw;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    height: 67px;
+    transition: 0.3s linear;
+   
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+
+}
+.navbar li:hover{
+   color: rgb(37, 37, 230);
+   font-weight: 500;
+   cursor: pointer;
+
+}
+.topleft {
+
+    width: 60%;
+}
+.topleft .btn {
+    background-color: rgb(118, 118, 226);
+
+}
+.topleft .deal {
+    padding-top: 11px;
+    padding-bottom: 6px;
+    color: rgb(239, 10, 10);
+}
+.topright {
+    width: 60%;
+}
+.section1 {
+    max-height: 100vh;
+}
+.section1 h1 {
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(21, 70, 123);
+}
+.dumblling {
+    width: 150px;
+}
+.topright .gymimg {
+    width: 650px;
+}
+.section2 {
+    padding: 70px;
+}
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+.section2 h1 {
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    color: rgb(22, 53, 86);
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 24vw;
+    border: 1.5px solid blue;
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2 {
+    font-size: 1.7rem;
+    padding: 14px;
+}
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.box ul {
+    list-style: none;
+}
+.box ul li {
+    margin: 12px 2px;
+    font-family: 'Times New Roman', Times, serif
+}
+.pricingtable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 {
+    padding: 50px;
+}
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px 0;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.section3 table th {
+    width: 23vw;
+    border-bottom: 1.7px solid blue;
+    padding: 16px;
+}
+.section3 table td {
+    border-bottom: 1.8px solid blue;
+
+}
+.section3 h1 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(24, 122, 234);
+}
+footer {
+    padding: 23px;
+    text-align: center;
+    color: rgb(22, 22, 207);
+    font-weight: 400;
+}
+.btns{
+color: rgb(246, 240, 240);
+background-color: rgb(24, 122, 234);
+padding: 8px 12px;
+border: none;
+outline: none;
+font-size: 16px;
+border-radius: 8px;
+
+}
